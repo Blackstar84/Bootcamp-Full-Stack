@@ -1,0 +1,15 @@
+h1 {
+    color: white;
+    background-color: blue;
+  }
+
+
+h2 {
+    color: green;
+}
+
+
+img {
+    border: 10px solid purple;
+    border-radius: 50%;
+}

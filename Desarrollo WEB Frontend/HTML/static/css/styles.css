@@ -1,0 +1,14 @@
+h1 {
+    color: darkblue;
+    background-color: yellow;
+}
+
+h2{
+    color: green;
+
+}
+
+img{
+    border-radius: 50%;
+    border: 1px solid green;
+}

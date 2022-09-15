@@ -1,0 +1,6 @@
+Servicio Web para probar nuestros formularios web:
+https://requestbin.com/r/
+
+
+- Modo de uso; el servicio genera una url 'endpoint' este lo dedemos configurar en la etiqueta <form>
+atributo action='..' y method='POST' así: <form action='https://url-endpoint' y method='POST'> 
