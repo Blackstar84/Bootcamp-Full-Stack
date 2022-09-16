@@ -4,134 +4,140 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Pizza Delivery!</title>
+    <title>IRIS PIZZA</title>
+    <style>
+      
+      img{
+        border-radius: 50%;
+        border: 2px solid orangered;
+      }
+
+      h1{
+        color: orangered;
+      }
+
+      fieldset{
+        border: 1px solid orangered;
+        
+      }
+
+    </style>
   </head>
   <body>
     <header>
       <img
         height="70px"
-        src="https://img.freepik.com/vector-gratis/diseno-logo-pizza_9845-319.jpg?w=2000"
+        src="/Desarrollo WEB Frontend/actividades/actividad2/pizza.png"
       />
-      <h1>Pizza Delivery</h1>
+      <h1>IRIS PIZZA</h1>
     </header>
 
     <main>
       <section>
-        <form method="POST" action="https://enm8j9v468at.x.pipedream.net">
+        <form method="POST" action="https://en9v6teh0ycs7.x.pipedream.net">
           <fieldset>
-            <legend>Datos del cliente</legend>
+            <legend><h3>Datos del cliente</h3></legend>
             <label for="firstName"> Nombre:</label>
-            <input
-              type="text"
-              name="firstName"
-              id="firstName"
-              placeholder="ingresa tu nombre"
-            />
+            <input type="text" name="firstName" id="firstName" placeholder="ingresa tu nombre" />
 
-            <label for="email">Celular:</label>
-            <input
-              type="text"
-              name="phone"
-              placeholder="ingresa tu Celular"
-              id="phone"
-            />
+            <label for="cellphone">Celular:</label>
+            <input type="text" name="phone" placeholder="ingresa tu Celular" id="cellphone" />
             <br />
-
+            <br />
             <label for="lastname">Apellido:</label>
-            <input
-              type="text"
-              name="lastname"
-              id="lastname"
-              placeholder="ingresa tu apellido"
-            />
+            <input type="text" name="lastname" id="lastname" placeholder="ingresa tu apellido" />
 
             <label for="email">Email:</label>
-            <input
-              type="email"
-              name="email"
-              placeholder="ingresa tu Email"
-              id="email"
-            />
+            <input type="email" name="email" placeholder="ingresa tu Email" id="email" />
             <br />
 
             <br />
-            <label for="lastname">Ciudad:</label>
-            <input type="text" name="city" id="city" placeholder="Ciudad" />
-
+            <label for="ciudad">Ciudad:</label>
+            <input type="text" name="ciudad" id="ciudad" placeholder="ciudad" />
             <br />
-            <label for="lastname">Codigo Postal:</label>
-            <input
-              type="text"
-              name="postal_code"
-              id="postal_code"
-              placeholder="Codigo Postal"
-            />
+            <br />
+            <label for="codigoPostal">Codigo Postal:</label>
+            <input type="text" name="codigoPostal" id="codigoPostal" placeholder="Codigo Postal" />
           </fieldset>
 
           <br />
 
-
           <fieldset>
-            <legend>Personaliza tu Pizza</legend>
+            <legend><h3>Personalice su Pizza</h3></legend>
 
             <br />
-            <label for="color_favorite"><b>Selecciona tu tipo Pizza:</b></label>
+            <label><b>Seleccione su tipo Pizza:</b></label>
             <br />
 
-            <label for="accion">Americana</label>
-            <input type="radio" name="tipo_pizza" value="americana" id="americana" />
+            <label for="margarita">Margarita</label>
+            <input type="radio" name="tipoPizza" value="margarita" id="margarita" />
             <br />
 
-            <label for="ficcion">Hawaina</label>
-            <input type="radio" name="tipo_pizza" value="hawaina" id="hawaina" />
+            <label for="cuatroQuesos">Cuatro Quesos</label>
+            <input type="radio" name="tipoPizza" value="cuatroQuesos" id="cuatroQuesos" />
             <br />
 
-            <label for="drama">Mixta</label>
-            <input type="radio" name="tipo_pizza" value="mixta" id="mixta" /> <br />
+            <label for="pepperoni">Pepperoni</label>
+            <input type="radio" name="tipoPizza" value="pepperoni" id="pepperoni" />
+            <br />
+
+            <label for="napolitana">Napolitana</label>
+            <input type="radio" name="tipoPizza" value="napolitana" id="napolitana" />
+            <br />
+
+            <label for="mexicana">Mexicana</label>
+            <input type="radio" name="tipoPizza" value="mexicana" id="mexicana" />
+            <br />
 
             <br />
-            <label for="color_favorite"><b>Selecciona tu Tamaño:</b></label>
+            <label><b>Seleccione el Tamaño de su Pizza:</b></label>
             <br />
 
             <label for="accion">Personal</label>
-            <input type="radio" name="tamano_pizza" value="personal" id="personal" />
+            <input type="radio" name="size" value="personal" id="personal" />
             <br />
 
             <label for="ficcion">Mediano</label>
-            <input type="radio" name="tamano_pizza" value="mediano" id="mediano" />
+            <input type="radio" name="size" value="mediano" id="mediano" />
             <br />
 
             <label for="drama">Familiar</label>
-            <input type="radio" name="tamano_pizza" value="familiar" id="familiar" /> <br />
+            <input type="radio" name="size" value="familiar" id="familiar" />
+            <br />
+
+            <label for="extraGrande">Extra Grande</label>
+            <input type="radio" name="size" value="extraGrande" id="extraGrande" />
+            <br />
 
             <br />
 
-            <label for="color_favorite"><b>Selecciona Extras:</b></label>
+            <label><b>Seleccione sus Toppings:</b></label>
             <br />
 
-            <label for="accion">Pan Ajos</label>
-            <input type="checkbox" name="extras" value="PAN_ajos" id="pan_ajos" />
+            <label for="piña">Piña</label>
+            <input type="checkbox" name="toppings" value="piña" id="piña" />
             <br />
 
-            <label for="ficcion">Chicha</label>
-            <input type="checkbox" name="extras" value="chicha" id="chicha" />
+            <label for="panceta">Panceta</label>
+            <input type="checkbox" name="toppings" value="panceta" id="panceta" />
             <br />
 
-            <label for="drama">Cremas</label>
-            <input type="checkbox" name="extras" value="cremas" id="cremas" />
+            <label for="chili">Chili</label>
+            <input type="checkbox" name="toppings" value="chili" id="chili" />
             <br />
           </fieldset>
 
           <br />
 
-          <label for="fecha">selecciona la hora de entrega</label>
+          <label for="fecha"><b>Seleccione la hora de entrega</b></label>
           <input type="time" name="fecha" id="fecha" />
-
           <br />
-          <textarea name="mensaje" rows="5" cols="39">envianos un comentario sobre el pedido..</textarea>
-
+          <br />
+          <textarea name="mensaje" rows="6" cols="100" placeholder="envianos un comentario"></textarea>
+          <br />
           <br />
           <input type="submit" value="Enviar" />
+          <br />
         </form>
       </section>
     </main>
