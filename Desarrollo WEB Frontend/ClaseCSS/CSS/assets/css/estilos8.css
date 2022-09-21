@@ -1,0 +1,5 @@
+.caja {
+    height: 120px;
+    border: 2px solid purple;
+    overflow: auto;
+}

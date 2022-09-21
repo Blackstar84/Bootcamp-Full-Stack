@@ -1,0 +1,43 @@
+h1 {
+    position: static;
+    top: 100px;
+    left: 100px;
+}
+
+
+.probando-relative {
+    color: green;
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+
+
+.caja-padre {
+    margin-top: 100px;
+    height: 200px;
+    position: relative;
+    border: 1px solid blue;
+}
+
+
+.caja-hija {
+    position: absolute;
+    top: 50px;
+    left: 10px;
+    border: 1px solid red;
+}
+
+.chat-now {
+    font-size: 20px;
+    position: fixed;
+    padding: 10px;
+    /* top: 10px; */
+    background: green;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    bottom: 10px;
+    right: 10px;
+    cursor: pointer;
+}

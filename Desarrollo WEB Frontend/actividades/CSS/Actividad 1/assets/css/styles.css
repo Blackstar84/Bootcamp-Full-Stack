@@ -1,0 +1,138 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    /*font-size: 14px;*/
+}
+body {
+    background-color: rgb(49, 48, 48);
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+form {
+    margin-top: 40px;
+}
+
+h2 {
+    text-shadow: 8px 5px 3px rgb(79, 14, 79);
+    border-bottom: 2px solid white;    
+    padding-left: 30px;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+    letter-spacing: 1px;
+    font-weight: 100;
+    margin-left: 10px;
+}
+
+
+
+.inicioSesion {
+    background: linear-gradient(rgba(0,0,0, .3),rgba(243,17,224, .3)), url(https://i.pinimg.com/originals/73/c2/66/73c26638c33add71034f9e32d75a4b80.jpg) center;
+    background-size: cover;
+    margin: auto;
+    margin-top: 4%;
+    border-radius: 20px;       
+    height: 500px;
+    width: 400px;
+    padding: 70px;    
+    box-shadow: 11px 20px 60px -5px rgb(48, 48, 48);
+}
+
+.enviar {
+    font-size: 12px;
+    letter-spacing: 3px;
+    background-color: rgb(40, 40, 169);
+    color: white;
+    width: 100%;
+    height: 35px;
+    border-radius: 20px;
+    border: none;
+    text-transform: uppercase;
+    transition: all 0.5s;
+}
+
+
+.enviar:hover {
+    background:rgb(77, 77, 206);
+    cursor:pointer;
+}
+
+
+.email, .password {
+    background-color: rgba(36, 5, 40, 0.3);
+    border: 2px solid rgba(255, 255, 255, 0);
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;    
+    margin-top: 15px;
+    transition: all 0.5s;
+    color: white;
+    font-size: 15px;
+    width: 90%;
+}
+
+
+
+.email:focus {
+    outline: 0;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+}
+
+.password:focus {
+    outline: 0;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+}
+
+.enviar {
+    font-size: 15px;
+    letter-spacing: 3px;
+    background-color: rgb(17, 17, 161);
+    color: white;
+    width: 100%;
+    height: 35px;
+    border-radius: 20px;
+    border: none;
+    text-transform: uppercase;
+    transition: all 0.5s ease-in-out;
+    margin-bottom: 60px;
+}
+
+
+.enviar:hover {
+    cursor:pointer;
+    background:rgb(4, 208, 188);
+    color: black;
+    font-weight: bold;
+    
+}
+
+label {
+    display: block;
+    margin-top: 10px;    
+}
+
+hr {
+    margin-top: 70px;
+    border: 1px solid white;
+}
+
+a {
+    line-height: 40px;
+    text-align: left;
+    color: white;
+    text-decoration: none;
+}
+
+
+.sesion {
+    display: inline-block;
+    margin-bottom: 30px;
+
+}
