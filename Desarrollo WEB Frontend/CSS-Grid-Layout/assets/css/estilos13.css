@@ -1,0 +1,43 @@
+* {
+    background: peachpuff;
+}
+
+
+.caja-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto) ;
+}
+
+.caja-1 {
+    background: green;
+    grid-column: 1 / 3;
+    grid-row: 1;
+}
+
+.caja-2 {
+    background: yellow;
+    grid-column: 2 / 4;
+}
+
+.caja-3 {
+    background: purple;
+    grid-column: 1;
+}
+
+.caja-4 {
+    background: rosybrown;
+    grid-column: 3;
+}
+
+.caja-5 {
+    background: red;
+    grid-column: 1;
+}
+
+.caja-6 {
+    background: blue;
+    grid-column: 3;
+    grid-row: 1 / 5;
+}
