@@ -13,18 +13,20 @@ h1 {
 nav {
     padding: 10px;
     float: right;
+    /* margin-top: 0.2%; */
     border: 2px solid orange;
 }
 
 main {
-    border: 2px solid blueviolet;
+    border: 1px solid blueviolet;
+    width: 99.9%;
     float: left;
 }
 
 section {
     width: 70%;
     margin: 10px;
-    border: 2px solid orangered;
+    border: 2px solid greenyellow;
     float: left;
 }
 
