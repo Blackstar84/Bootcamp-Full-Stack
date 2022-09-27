@@ -37,9 +37,10 @@ article {
     border: 1px solid blue;
 }
 
-aside {
+aside {    
     float:right;
     width:24%;
+    text-align: center;
     height: 200px;
     background: orangered;
     border: 2px solid black;
