@@ -1,0 +1,13 @@
+
+
+p {
+    display: inline-block;
+}
+
+
+h1 {
+    display: block;
+    /* display: none;
+    visibility: hidden; */
+}
+

@@ -1,0 +1,24 @@
+.caja1 {
+    border: 1px solid green;
+    width: 20%;
+    float: left;
+}
+
+.caja2 {
+    border: 1px solid green;
+    width: 20%;
+    float: right;
+}
+
+.caja3 {
+    border: 1px solid green;
+    width: 20%;
+    float: right;
+}
+
+
+.caja4 {
+    border: 1px solid blue;
+    clear: both;
+}
+

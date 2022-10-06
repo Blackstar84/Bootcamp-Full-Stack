@@ -1,0 +1,50 @@
+
+header {
+    height: 50px;
+    border: 2px solid cornflowerblue;
+}
+
+h1 {
+    float: left;
+    font-size: 20px;
+    border: 1px solid cornflowerblue;
+}
+
+nav {
+    padding: 10px;
+    float: right;
+    border: 2px solid orange;
+}
+
+main {
+    border: 2px solid blueviolet;
+    float: left;
+}
+
+section {
+    width: 70%;
+    margin: 10px;
+    border: 2px solid orangered;
+    float: left;
+}
+
+article {
+    float:left;
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid blue;
+}
+
+aside {
+    float:right;
+    width:24%;
+    height: 200px;
+    background: orangered;
+    border: 2px solid black;
+}
+
+
+footer {
+    border: 2px solid green;
+    clear: both;
+}

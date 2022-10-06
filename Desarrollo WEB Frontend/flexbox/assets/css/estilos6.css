@@ -1,0 +1,54 @@
+
+
+.registro {
+    padding: 10px;
+    background: green;
+}
+
+
+.registro:focus {
+    color: white;
+    border-radius: 3px;
+    background: pink;
+}
+
+
+.registro:hover {
+    color: white;
+    border-radius: 5px;
+    border: none;
+    background: purple;
+}
+
+
+/* .iniciar {
+    padding: 10px;
+    background: green;
+} */
+
+button:first-child {
+    background: black;
+    color: white;
+}
+
+
+button:last-child {
+    background: orange;
+    color: white;
+}
+
+
+.redondear {
+    border-radius: 5px;
+    border: none;
+}
+
+
+.redondear.color-green {
+    background: green;
+}
+
+.redondear.color-green.boton-grande {
+    padding: 10px;
+    font-size: 20px;
+}
