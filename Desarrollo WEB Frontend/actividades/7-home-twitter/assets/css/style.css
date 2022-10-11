@@ -1,0 +1,82 @@
+
+
+.btn-twitter {
+    background-color: rgb(29, 155, 240);
+    padding: 10px 60px;
+    border-radius: 30px;
+    border: none;
+    box-shadow: rgb(0 0 0 / 8%) 0px 8px 28px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.btn-twitter:hover {
+    background-color: rgb(28, 122, 186);
+}
+
+
+ul li a:hover {
+    background-color: rgba(172, 167, 167, 0.177);
+}
+
+ul li a {
+    border-radius: 30px;
+}
+
+.search-twitter {
+    border: none;
+    background-color: rgba(212, 211, 211, 0.177);
+    padding: 15px 50px;
+    border-radius: 30px
+}
+
+.inner-addon { 
+    position: relative; 
+}
+
+/* style icon */
+.inner-addon .bi {
+  position: absolute;
+  padding: 10px;
+  pointer-events: none;
+}
+
+/* align icon */
+.left-addon .bi  { left:  0px;}
+.right-addon .bi { right: 0px;}
+
+/* add padding  */
+.left-addon input  { padding-left:  30px; }
+.right-addon input { padding-right: 30px; }
+
+
+span {
+    font-size: 14px;
+    color: gray;
+}
+
+.btn-twitter-small {
+    float: right;
+    cursor: none;
+    background-color: rgb(145, 197, 232);
+    padding: 8px 20px;
+    border-radius: 30px;
+    border: none;
+    box-shadow: rgb(0 0 0 / 8%) 0px 8px 28px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+hr {
+    opacity: .15;
+}
+
+.more-tweets:hover {
+    background-color: rgba(172, 167, 167, 0.135);
+}
+
+.tweet:hover {
+    background-color: rgba(172, 167, 167, 0.177);
+}

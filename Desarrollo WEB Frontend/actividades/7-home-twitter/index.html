@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home de Twitter</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.0/font/bootstrap-icons.css"
+    />
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <div class="row">
+          <div class="col-12 bg-white">
+            <nav class="navbar bg-white">
+              <div class="container">
+                <a class="navbar-brand" href="#">
+                  <i class="bi bi-twitter fs-1 text-primary"></i>
+                </a>
+
+                <div class="me-5">
+                  <a class="navbar-brand">Inicio</a>
+                </div>
+                <div>
+                  <form class="d-flex inner-addon left-addon" role="search">
+                    <i class="bi bi-search fs-5 p-2"></i>
+                    <input
+                      class="form-control me-2 search-twitter"
+                      type="search"
+                      placeholder="Buscar en twitter"
+                      aria-label="Search"
+                    />
+                  </form>
+                </div>
+              </div>
+            </nav>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-3 bg-white">
+            <ul class="nav flex-column">
+              <li class="nav-item">
+                <a
+                  class="nav-link active text-dark fs-5 fw-bold me-3"
+                  aria-current="page"
+                  href="#"
+                >
+                  <i class="bi bi-house-heart-fill fs-3 me-3"></i>
+                  Inicio
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark fs-5 fw-bold me-3" href="#">
+                  <i class="bi bi-search fs-3 me-3"></i>
+                  explorar
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark fs-5 fw-bold me-3" href="#">
+                  <i class="bi bi-bell fs-3 me-3"></i>
+                  Notificaciones
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link text-dark fs-5 fw-bold me-3" href="#">
+                  <i class="bi bi-envelope fs-3 me-3"></i>
+                  Mensajes
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link text-dark fs-5 fw-bold me-3" href="#">
+                  <i class="bi bi-bookmark fs-3 me-3"></i>
+                  Guardados
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark fs-5 fw-bold me-3" href="#">
+                  <i class="bi bi-card-checklist fs-3 me-3"></i>
+                  Listas
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark fs-5 fw-bold me-3" href="#">
+                  <i class="bi bi-person fs-3 me-3"></i>
+                  Perfil
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark fs-5 fw-bold me-3" href="#">
+                  <i class="bi bi-filter-circle fs-3 me-3"></i>
+                  Más opciones
+                </a>
+              </li>
+            </ul>
+            <div class="mt-4">
+              <button type="button" class="btn-twitter">Twittear</button>
+            </div>
+          </div>
+
+          <div class="col-6 bg-white tempora-twittes">
+            <div class="row">
+              <div class="col-2">
+                <img
+                  class="rounded-circle"
+                  width="70px"
+                  height="70px"
+                  src="https://image.cnbcfm.com/api/v1/image/105773423-1551716977818rtx6p9yw.jpg?v=1551717428"
+                  alt=""
+                />
+              </div>
+              <div class="col-10">
+                <div class="form-floating">
+                  <textarea
+                    class="form-control border-0 fs-3"
+                    placeholder="Leave a comment here"
+                    id="floatingTextarea2"
+                    style="height: 100px"
+                  ></textarea>
+                  <label for="floatingTextarea2">¿Que esta pasando?</label>
+                </div>
+                <span class="text-primary fw-bold">
+                  <i class="bi bi-globe me-3 text-primary"></i>
+                  Cualquie persona puede responder
+                </span>
+                <hr />
+                <div class="mt-2">
+                  <span
+                    ><i class="bi bi-card-image text-primary fs-4 m-2"></i
+                  ></span>
+                  <span
+                    ><i class="bi bi-filetype-gif text-primary fs-4 m-2"></i
+                  ></span>
+                  <span
+                    ><i class="bi bi-bar-chart-fill text-primary fs-4 m-2"></i
+                  ></span>
+                  <span
+                    ><i class="bi bi-calendar text-primary fs-4 m-2"></i
+                  ></span>
+                  <button type="button" class="btn-twitter-small">
+                    Twittear
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="text-center p-3 more-tweets">
+                <span class="text-primary fw-bold">Mostrar 1,500 Tweets</span>
+            </div>
+
+
+
+            <div class="container ">
+                <div class="card m-3 border-0 rounded-3 text-bg-white w-100 tweet" >
+                    <div class="card-body m-2">
+                        <div class="row">
+                            <div class="col-2">
+                                <img class="rounded-circle" height="50px"  src="https://style.shockvisual.net/wp-content/uploads/2019/09/WSmith.jpg" alt="">
+                            </div>
+        
+                            <div class="col-9 ms-1">
+                                <h6 class="mb-0">Will Smith
+                                    <i class="bi bi-patch-check-fill text-primary ms-2"></i>
+                                    <i class="bi bi-twitter float-end text-primary fs-1"></i>
+                                </h6>
+                                <p class="text-muted">@willsmith</p>
+        
+                            </div>
+                        </div>
+        
+                        <div class="row">
+                            <div class="col-12">
+                                <p class="text-black fs-4 mt-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, itaque! </p>
+                                <p class="text-primary fs-4 mb-1">#TwitterTag</p>
+                            </div>
+                        </div>
+        
+        
+                        <div class="row">
+                            <p class="text-muted fs-6">9:30pm Fb5, 2022</p>
+                        </div>
+        
+                        <div class="row">
+                            <div class="col-3">
+                                <a href="#"><i class="bi bi-chat fs-5 text-secondary"></i></a>
+                            </div>
+                            <div class="col-3">
+                                <a href="#"><i class="bi bi-share fs-5 text-secondary"></i></a>
+                            </div>
+                            <div class="col-3">
+                                <a href="#"><i class="bi bi-heart fs-5 text-secondary"></i></a>
+                            </div>
+                            <div class="col-3">
+                                <a href="#"><i class="bi bi-arrow-bar-up fs-5 text-secondary"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+        
+            </div>
+
+
+
+
+            <div class="container ">
+                <div class="card m-3 border-0 rounded-3 text-bg-white w-100 tweet" >
+                    <div class="card-body m-2">
+                        <div class="row">
+                            <div class="col-2">
+                                <img class="rounded-circle" height="50px"  src="https://style.shockvisual.net/wp-content/uploads/2019/09/WSmith.jpg" alt="">
+                            </div>
+        
+                            <div class="col-9 ms-1">
+                                <h6 class="mb-0">Will Smith
+                                    <i class="bi bi-patch-check-fill text-primary ms-2"></i>
+                                    <i class="bi bi-twitter float-end text-primary fs-1"></i>
+                                </h6>
+                                <p class="text-muted">@willsmith</p>
+        
+                            </div>
+                        </div>
+        
+                        <div class="row">
+                            <div class="col-12">
+                                <p class="text-black fs-4 mt-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, itaque! </p>
+                                <p class="text-primary fs-4 mb-1">#TwitterTag</p>
+                            </div>
+                        </div>
+        
+        
+                        <div class="row">
+                            <p class="text-muted fs-6">9:30pm Fb5, 2022</p>
+                        </div>
+        
+                        <div class="row">
+                            <div class="col-3">
+                                <a href="#"><i class="bi bi-chat fs-5 text-secondary"></i></a>
+                            </div>
+                            <div class="col-3">
+                                <a href="#"><i class="bi bi-share fs-5 text-secondary"></i></a>
+                            </div>
+                            <div class="col-3">
+                                <a href="#"><i class="bi bi-heart fs-5 text-secondary"></i></a>
+                            </div>
+                            <div class="col-3">
+                                <a href="#"><i class="bi bi-arrow-bar-up fs-5 text-secondary"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+        
+            </div>
+
+
+
+            <div class="container ">
+     
+                <div class="card m-3 border-0 rounded-3 text-bg-white w-100 tweet" >
+                    <div class="card-body m-2">
+                        <div class="row">
+                            <div class="col-2">
+                                <img class="rounded-circle" height="50px"  src="https://style.shockvisual.net/wp-content/uploads/2019/09/WSmith.jpg" alt="">
+                            </div>
+        
+                            <div class="col-9 ms-1">
+                                <h6 class="mb-0">Will Smith
+                                    <i class="bi bi-patch-check-fill text-primary ms-2"></i>
+                                    <i class="bi bi-twitter float-end text-primary fs-1"></i>
+                                </h6>
+                                <p class="text-muted">@willsmith</p>
+        
+                            </div>
+                        </div>
+        
+                        <div class="row">
+                            <div class="col-12">
+                                <p class="text-black fs-4 mt-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, itaque! </p>
+                                
+                                <img height="200px" class="rounded-4" src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg" alt="">
+                                <p class="text-primary fs-4 mb-1">#TwitterTag</p>
+                            </div>
+                        </div>
+        
+        
+                        <div class="row">
+                            <p class="text-muted fs-6">9:30pm Fb5, 2022</p>
+                        </div>
+        
+                        <div class="row">
+                            <div class="col-3">
+                                <a href="#"><i class="bi bi-chat fs-5 text-secondary"></i></a>
+                            </div>
+                            <div class="col-3">
+                                <a href="#"><i class="bi bi-share fs-5 text-secondary"></i></a>
+                            </div>
+                            <div class="col-3">
+                                <a href="#"><i class="bi bi-heart fs-5 text-secondary"></i></a>
+                            </div>
+                            <div class="col-3">
+                                <a href="#"><i class="bi bi-arrow-bar-up fs-5 text-secondary"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+        
+            </div>
+        
+
+
+            </div>
+
+
+            <div class="col-3 bg-light rounded-4">
+                <h5 class="p-3">Tendencias para ti</h5>
+                <ul class="nav flex-column">
+                  <li class="nav-item">
+                    <a
+                      class="nav-link active text-dark fs-5 fw-bold me-3 rounded-0"
+                      aria-current="page"
+                      href="#"
+                    >
+                      <span class="d-block mb-2">Tendencia en Perú</span>
+                      Computrabajo
+                      <span class="d-block mb-2">4,000 Tweets</span>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      class="nav-link active text-dark fs-5 fw-bold me-3 rounded-0"
+                      aria-current="page"
+                      href="#"
+                    >
+                      <span class="d-block mb-2">Shakira</span>
+                      Computrabajo
+                      <span class="d-block mb-2">3,000 Tweets</span>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-dark fs-5 fw-bold me-3" href="#">
+                      Notificaciones
+                    </a>
+                  </li>
+    
+                  <li class="nav-item">
+                    <a
+                      class="nav-link active text-dark fs-5 fw-bold me-3 rounded-0"
+                      aria-current="page"
+                      href="#"
+                    >
+                      <span class="d-block mb-2">#instagramdown</span>
+                      Computrabajo
+                      <span class="d-block mb-2">1,000 Tweets</span>
+                    </a>
+                  </li>
+    
+                  <li class="nav-item">
+                    <a
+                      class="nav-link active text-dark fs-5 fw-bold me-3 rounded-0"
+                      aria-current="page"
+                      href="#"
+                    >
+                      <span class="d-block mb-2">GRaicas Profe</span>
+                      Computrabajo
+                      <span class="d-block mb-2">3,000 Tweets</span>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      class="nav-link active text-dark fs-5 fw-bold me-3 rounded-0"
+                      aria-current="page"
+                      href="#"
+                    >
+                      <span class="d-block mb-2">Shakira</span>
+                      Chile
+                      <span class="d-block mb-2">5,000 Tweets</span>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      class="nav-link active text-dark fs-5 fw-bold me-3 rounded-0"
+                      aria-current="page"
+                      href="#"
+                    >
+                      <span class="d-block mb-2">Shakira</span>
+                      #urgente
+                      <span class="d-block mb-2">3,000 Tweets</span>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      class="nav-link active text-dark fs-5 fw-bold me-3 rounded-0"
+                      aria-current="page"
+                      href="#"
+                    >
+                      <span class="d-block mb-2">Shakira</span>
+                      #developers
+                      <span class="d-block mb-2">3,000 Tweets</span>
+                    </a>
+                  </li>
+                </ul>
+
+                <div class="bg-light mt-3">© 2022 Twitter, Inc.</div>
+
+            </div>
+
+
+          </div>
+
+
+
+
+
+         
+
+        </div>
+      </div>
+    </main>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
