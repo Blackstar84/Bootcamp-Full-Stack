@@ -7,10 +7,10 @@ document.write(ejercicioTitle)
 
 let capitalPeru, capitalChile, capitalColombia;
 
-// capitalPeru = window.prompt("¿Cual es la capital de Peru?");
+ capitalPeru = window.prompt("¿Cual es la capital de Peru?");
 
-// capitalPeru = "<p>" + capitalPeru + "</p>"
-// document.write(capitalPeru);
+ capitalPeru = "<p>" + capitalPeru + "</p>"
+ document.write(capitalPeru);
 
 
 // capitalChile = window.prompt("¿Cual es la capital de Chile?");
@@ -33,4 +33,4 @@ let capitalPeru, capitalChile, capitalColombia;
 let juegoFab;
 juegoFab = window.prompt("¿Cual es tu juego favorito?");
 
-document.getElementById("caja_juegos").innerHTML = juegoFab;
+document.getElementById("caja_juegos").innerHTML = "<p style='asdasdcolor:white'> "+ juegoFab + "</p>";

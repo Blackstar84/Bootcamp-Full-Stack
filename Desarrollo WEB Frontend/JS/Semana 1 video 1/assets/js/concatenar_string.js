@@ -1,5 +1,5 @@
 
-var serie_preferida = "Big ban theory";
+var serie_preferida = "The Big bang theory";
 var genero_preferido = "comedia";
 
 
