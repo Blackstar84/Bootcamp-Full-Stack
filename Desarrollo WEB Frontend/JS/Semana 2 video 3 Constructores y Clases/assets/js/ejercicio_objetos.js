@@ -26,17 +26,17 @@ const apiMusic = [
     },
 ]
 
- //console.log(apiMusic);
+// console.log(apiMusic);
 
 
 
-function mostrarAlbum(){
+function mostrarAlbun(){
 
     let totalCard;
 
     apiMusic.map( function (item){
-        //console.log(item);
-        
+        console.log(item);
+
         let componenteCard = `<div class="card" style="width: 18rem;">
         <img src="${item.imageAlbun}" class="card-img-top" alt="...">
         <div class="card-body">
@@ -59,7 +59,7 @@ function mostrarAlbum(){
 }
 
 
- mostrarAlbum();
+// mostrarAlbun();
 
 apiMusic.forEach(element => console.log(element));
 

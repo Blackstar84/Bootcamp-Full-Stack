@@ -7,18 +7,18 @@ let persona = {
     edad: 25
 }
 
-console.log(persona);
-console.log(persona.nombre);
-console.log(persona.email);
+// console.log(persona);
+// console.log(persona.nombre);
+// console.log(persona.email);
 
 persona.nombre = 'Pedro';
-console.log(persona);
+// console.log(persona);
 
 persona.direcction = 'Peru/lima';
-console.log(persona);
+// console.log(persona);
 
 delete persona.email;
-console.log(persona);
+// console.log(persona);
 
 
 // otra forma para crear objetos de forma explicita
@@ -27,10 +27,10 @@ let persona2 = new Object();
 persona2.email = 'email@gmail.com';
 persona2.nombre = 'Pedro';
 
-console.log(persona2);
+// console.log(persona2);
 
 
-// agregar metodos al objeto
+// agregar metodos al objetos
 
 let persona3 = {
     nombre: "erick",
@@ -49,14 +49,6 @@ let persona3 = {
         }
     }
 }
-
-
-console.log('---------------------');
-
-console.log(persona3.nombreCompleto());
-console.log(persona3.validarIdentidad());
-
-console.log('---------------------');
 
 console.log(persona3);
 console.log(persona3.apellido);
