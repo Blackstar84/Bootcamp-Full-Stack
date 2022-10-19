@@ -1,4 +1,6 @@
 
+
+
 class Coche {
     constructor(color, modelo){
         this._color = color;
@@ -23,9 +25,9 @@ cocheTesla.frenar();
 
 
 
-function acelerarCoche(){
-    console.log("acelerar");
-}
-acelerarCoche()
+// function acelerarCoche(){
+//     console.log("acelerar");
+// }
+// acelerarCoche()
 
 

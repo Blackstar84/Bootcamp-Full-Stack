@@ -4,7 +4,7 @@
 function Persona(nombre, apellido, email){
     this.nombre = nombre;
     this.apellido = apellido;
-    this.email = email;
+    this.email = email,
 
     this.correr = function (){
         return `corriendo maratom con ${this.nombre}`;
