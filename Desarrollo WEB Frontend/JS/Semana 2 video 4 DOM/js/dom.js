@@ -8,6 +8,7 @@ h1Title.innerHTML = '<span>Hola DOM </span>  ';
 
 
 // let container = document.getElementsByClassName('container');
+// console.log(container);
 // container[0].innerHTML = "<p> texto del container </p>"
 
 
@@ -19,11 +20,11 @@ newContainer.style.fontSize = "30px";
 
 let newContainerPrice = document.querySelectorAll(".price");
 
-// console.log(newContainerPrice);
+ console.log(newContainerPrice);
 
-// for (let item of newContainerPrice){
-//     console.log(item.innerHTML);
-// }
+for (let item of newContainerPrice){
+    console.log(item.innerHTML);
+}
 
 function mostrarMensaje(){
     alert("diste click");
@@ -39,7 +40,7 @@ document.getElementById("buy").onclick = mostrarMensaje;
 
 // document.getElementById("email").onchange = () => {
 //     console.log(document.getElementById("email").value);
-//     // document.getElementById("email").style.background = "green";
+//     document.getElementById("email").style.background = "green";
 // }
 
 
@@ -58,9 +59,9 @@ document.getElementById("password").addEventListener('change', (evento) => {
     console.log(mypass);
 
     if (mypass.length <= 5 ||  !mypass.includes('$') ){
-        alert("agregar minimo 8 caracteres a la cintraseña", mypass);
+        alert("agregar minimo 8 caracteres a la contraseña" + " " + mypass);
     } else {
-        alert("la contrasena es correcta!", mypass);
+        alert("la contrasena es correcta!" + " "+ mypass);
     }
 
 })
@@ -80,10 +81,10 @@ document.getElementById("pwd").addEventListener('mouseout', (evento) => {
 
 
 
-// document.getElementById("buy").addEventListener('load', (evento) => {
+document.getElementById("hola").addEventListener('load', (evento) => {
 
-//     console.log("el boton se renderizo completamente");
-// })
+    console.log("el boton se renderizo completamente");
+})
 
 
 
@@ -98,13 +99,13 @@ document.getElementById("pwd").addEventListener('mouseout', (evento) => {
 // }
 
 
-// window.addEventListener("load", function(event) {
-//     console.log("'Todos los recursos terminaron de cargar!");
-//   });
+window.addEventListener("load", function(event) {
+    console.log("'Todos los recursos terminaron de cargar!");
+  });
 
 
 window.onload = function (){
-    console.log("'Todos los recursos terminaron de cargar!");
+    console.log("'Todos los recursos terminaron de cargar HTML!");
 }
 
 
