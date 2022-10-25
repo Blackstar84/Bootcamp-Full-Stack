@@ -22,7 +22,9 @@ function updatePrice(){
         })
 
 
-        
+        /* document.querySelectorAll('.image_country').forEach(function(item){
+            item.innerHTML=contryFlag;
+        }) */
         if (dataUser.country === 'PE'){
             
             // document.querySelectorAll('.image_country').forEach( function (item){
