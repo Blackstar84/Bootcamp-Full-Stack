@@ -53,7 +53,7 @@ class Orden{
 
     mostrarOrdenFinal(){
         this._canasta.forEach(function (item){
-            console.log(this._dataNew);
+           // console.log(this._dataNew);
             console.log(` Titulo: ${item.titulo} PrecioUnitario: ${item.precio}`)
         })
 
@@ -73,7 +73,7 @@ let producto2 = new Producto('Xiaomi', 333);
 // console.log(producto2.estadoProducto());
 
 let producto3 = new Producto('Samsung', 222);
-// console.log(Producto.contadorProducts);
+//console.log(Producto.contadorProducts);
 
 
 const crearOrden = new Orden()
