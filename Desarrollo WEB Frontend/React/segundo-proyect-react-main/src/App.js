@@ -32,6 +32,7 @@ const App = () => {
       </div>
 
       <div>
+        <img src={imagen}></img>
         <img src={gato}></img>
       </div>
       <FooterBonito />
