@@ -1,18 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
-import Navbar from './components/Navbar'
-import Carrousel from './components/Carrousel'
-import Card from './components/Cards'
+import { Route,BrowserRouter,Routes } from "react-router-dom"
+import VistaPrincipal from './views/VistaPrincipal'
 
-function App() {
-  return (
-    <div className="App">
-      <Navbar></Navbar>
-      <Carrousel></Carrousel>
-      <Card></Card>
-      
+export default function App(){
+ 
+  
+  return(
+    <div>
+      <BrowserRouter>
+        <Routes>
+          <Route exact path="/" element={<VistaPrincipal/>}></Route>
+        </Routes>
+      </BrowserRouter>
+        
     </div>
-  );
-}
+  )
 
-export default App;
+}
