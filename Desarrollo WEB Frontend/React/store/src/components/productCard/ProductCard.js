@@ -1,4 +1,6 @@
 import React from "react";
+import PropTypes from 'prop-types';
+
 
 /**
  * 
@@ -10,19 +12,36 @@ import React from "react";
  * props > propiedades
  */
 
-const ProductCard = (props) => {
+const ProductCard = ({name, price, cover}) => {
 
-    const style = {
+    /* const style = {
         color: 'aqua',
         fontSize: '15px',
         backgroundColor: 'black'
-    };
+    }; */
 
     return(
-        <article style={style}>
-            {props.name || 'sin registrar'}
+        //<article style={style}>
+        <article>
+            <img src={cover} alt={name}></img>
+            <h2>{name}</h2>
+            <h3>{price}</h3>
+
         </article>
     )
 }
+
+ProductCard.propTypes = {
+    name: PropTypes.string
+}
+
+
+ProductCard.defaultProps = {
+    name: 'sin registrar',
+    
+
+};
+
+
 
 export default ProductCard;

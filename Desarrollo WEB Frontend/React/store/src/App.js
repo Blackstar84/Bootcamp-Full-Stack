@@ -7,8 +7,9 @@ function App() {
       
       <ProductCard name="Camisa Azúl" />
       <ProductCard name="Pantalón Verde" />
-      <ProductCard  />
-      <ProductCard  />
+      <ProductCard name={3} />
+      <ProductCard />
+      <ProductCard />
     </div>
   );
 }
