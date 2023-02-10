@@ -1,0 +1,18 @@
+.products{
+    
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.1);
+
+    
+}
+
+.products .content {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(300px, 1fr));
+    max-width: 1200px;
+    grid-column-gap: 50px;
+}
