@@ -1,15 +1,11 @@
 import './App.css';
-import ProductCard from './components/productCard/ProductCard';
+import Products from './pages/products/Products';
 
 function App() {
   return (
     <div className="App">
+      <Products></Products>
       
-      <ProductCard name="Camisa Azúl" />
-      <ProductCard name="Pantalón Verde" />
-      <ProductCard name={3} />
-      <ProductCard />
-      <ProductCard />
     </div>
   );
 }
